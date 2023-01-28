@@ -189,19 +189,28 @@ body {
     width: 300px;
   }
   .jokes__right {
-    padding: 50px;
+    padding: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .jokes__title {
+    width: 100%;
+  }
   .jokes__title-name {
     background-color: #FFD0B3;
     color: #EF631A;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 0px;
   }
   .jokes__title-text {
     font-size: 30px;
+    padding: 0px 30px;
   }
   .jokes__categories {
     width: 100%;
